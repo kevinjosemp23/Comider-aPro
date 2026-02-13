@@ -15,6 +15,8 @@ def ejecutar_consulta(query, params=(), fetch=False):
     conn.close()
     return data
 
+# ejemplo de cambio
+
 # --- CONFIGURACIÓN DE PÁGINA ---
 st.set_page_config(page_title="Comidería Pro", layout="wide")
 st.title("🏪 Sistema de Gestión - Comidería")
